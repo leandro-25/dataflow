@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* ===== Editor de Dashboards (no-code) ===== */
+
+/* Area do canvas com grade pontilhada para destacar os widgets */
+.dash-canvas {
+  background-color: #f1f5f9;
+  background-image: radial-gradient(circle, #cbd5e1 1.2px, transparent 1.2px);
+  background-size: 18px 18px;
+}
+
+/* Cartao de cada widget no editor */
+.dash-card {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 2px 8px rgba(15, 23, 42, 0.12);
+}
+.dash-card:hover {
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.2);
+}
+
+/* Placeholder ao arrastar */
+.react-grid-placeholder {
+  background: #6366f1 !important;
+  opacity: 0.25;
+  border-radius: 8px;
+}
+
+/* Alca de redimensionamento visivel */
+.react-resizable-handle {
+  width: 16px !important;
+  height: 16px !important;
+}
+.react-resizable-handle::after {
+  border-color: #94a3b8 !important;
+  width: 9px !important;
+  height: 9px !important;
+  border-width: 2px 2px 0 0 !important; /* canto inferior direito padrao */
+  transform: rotate(-45deg) scale(1.4) !important;
+}
+.react-resizable-handle:hover::after {
+  border-color: #6366f1 !important;
+}

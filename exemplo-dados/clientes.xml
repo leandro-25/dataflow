@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<clientes>
+  <cliente>
+    <id>1</id>
+    <nome>Empresa ABC Ltda</nome>
+    <cnpj>12.345.678/0001-90</cnpj>
+    <segmento>Tecnologia</segmento>
+    <cidade>São Paulo</cidade>
+    <estado>SP</estado>
+    <data_cadastro>2024-01-01</data_cadastro>
+    <status>ativo</status>
+    <limite_credito>50000.00</limite_credito>
+  </cliente>
+  <cliente>
+    <id>2</id>
+    <nome>Comércio XYZ S/A</nome>
+    <cnpj>98.765.432/0001-10</cnpj>
+    <segmento>Varejo</segmento>
+    <cidade>Rio de Janeiro</cidade>
+    <estado>RJ</estado>
+    <data_cadastro>2024-01-05</data_cadastro>
+    <status>ativo</status>
+    <limite_credito>30000.00</limite_credito>
+  </cliente>
+  <cliente>
+    <id>3</id>
+    <nome>Indústria 123 Ltda</nome>
+    <cnpj>45.678.901/0001-23</cnpj>
+    <segmento>Manufatura</segmento>
+    <cidade>Belo Horizonte</cidade>
+    <estado>MG</estado>
+    <data_cadastro>2024-01-10</data_cadastro>
+    <status>ativo</status>
+    <limite_credito>75000.00</limite_credito>
+  </cliente>
+  <cliente>
+    <id>4</id>
+    <nome>Serviços Tech ME</nome>
+    <cnpj>87.654.321/0001-45</cnpj>
+    <segmento>Consultoria</segmento>
+    <cidade>Porto Alegre</cidade>
+    <estado>RS</estado>
+    <data_cadastro>2024-01-15</data_cadastro>
+    <status>ativo</status>
+    <limite_credito>25000.00</limite_credito>
+  </cliente>
+  <cliente>
+    <id>5</id>
+    <nome>Distribuidora Central</nome>
+    <cnpj>54.321.987/0001-67</cnpj>
+    <segmento>Logística</segmento>
+    <cidade>Curitiba</cidade>
+    <estado>PR</estado>
+    <data_cadastro>2024-01-20</data_cadastro>
+    <status>pendente</status>
+    <limite_credito>100000.00</limite_credito>
+  </cliente>
+  <cliente>
+    <id>6</id>
+    <nome>Loja Virtual E-commerce</nome>
+    <cnpj>76.543.210/0001-89</cnpj>
+    <segmento>E-commerce</segmento>
+    <cidade>Salvador</cidade>
+    <estado>BA</estado>
+    <data_cadastro>2024-01-25</data_cadastro>
+    <status>ativo</status>
+    <limite_credito>15000.00</limite_credito>
+  </cliente>
+  <cliente>
+    <id>7</id>
+    <nome>Restaurante Sabores</nome>
+    <cnpj>23.456.789/0001-01</cnpj>
+    <segmento>Alimentação</segmento>
+    <cidade>Recife</cidade>
+    <estado>PE</estado>
+    <data_cadastro>2024-02-01</data_cadastro>
+    <status>ativo</status>
+    <limite_credito>10000.00</limite_credito>
+  </cliente>
+  <cliente>
+    <id>8</id>
+    <nome>Construção Civil Ltda</nome>
+    <cnpj>67.890.123/0001-34</cnpj>
+    <segmento>Construção</segmento>
+    <cidade>Fortaleza</cidade>
+    <estado>CE</estado>
+    <data_cadastro>2024-02-05</data_cadastro>
+    <status>ativo</status>
+    <limite_credito>200000.00</limite_credito>
+  </cliente>
+</clientes>

@@ -1,0 +1,45 @@
+{
+  "google_sheets_example": {
+    "spreadsheet_id": "1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms",
+    "sheet_name": "Sheet1",
+    "range": "A1:Z1000",
+    "description": "Exemplo de configuração para Google Sheets",
+    "setup_instructions": [
+      "1. Crie um projeto no Google Cloud Console",
+      "2. Ative a Google Sheets API",
+      "3. Crie credenciais (Service Account)",
+      "4. Compartilhe a planilha com o email do service account",
+      "5. Configure as credenciais no Dataflow"
+    ],
+    "example_sheets": [
+      {
+        "name": "Vendas 2024",
+        "columns": ["ID", "Data", "Cliente", "Produto", "Quantidade", "Valor", "Total"],
+        "sample_data": [
+          [1, "2024-01-15", "João Silva", "Notebook Dell", 1, 3500.00, 3500.00],
+          [2, "2024-01-16", "Maria Santos", "Mouse Logitech", 5, 89.90, 449.50],
+          [3, "2024-01-17", "Carlos Oliveira", "Teclado Mecânico", 2, 299.00, 598.00]
+        ]
+      },
+      {
+        "name": "Clientes",
+        "columns": ["ID", "Nome", "Email", "Telefone", "Cidade", "Estado"],
+        "sample_data": [
+          [1, "João Silva", "joao@email.com", "(11) 98765-4321", "São Paulo", "SP"],
+          [2, "Maria Santos", "maria@email.com", "(21) 98765-4322", "Rio de Janeiro", "RJ"],
+          [3, "Carlos Oliveira", "carlos@email.com", "(31) 98765-4323", "Belo Horizonte", "MG"]
+        ]
+      }
+    ]
+  },
+  "credentials_example": {
+    "type": "service_account",
+    "project_id": "your-project-id",
+    "private_key_id": "key-id",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nYOUR_PRIVATE_KEY_HERE\n-----END PRIVATE KEY-----\n",
+    "client_email": "service-account@your-project.iam.gserviceaccount.com",
+    "client_id": "client-id",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token"
+  }
+}

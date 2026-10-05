@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - METADATA_DB_PATH=/app/data/metadata.db
+      - WAREHOUSE_DB_PATH=/app/data/warehouse.duckdb
+      - SECRET_KEY=${SECRET_KEY:-dataflow-secret-key}
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:8000
+    depends_on:
+      - backend
+    restart: unless-stopped

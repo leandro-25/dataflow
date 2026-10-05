@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "cliente_id": 1,
+    "data_venda": "2024-01-15 10:30:00",
+    "valor_total": 3500.0,
+    "forma_pagamento": "cartao_credito",
+    "status": "concluida",
+    "observacoes": "Venda via site"
+  },
+  {
+    "id": 2,
+    "cliente_id": 2,
+    "data_venda": "2024-01-16 14:20:00",
+    "valor_total": 449.5,
+    "forma_pagamento": "debito",
+    "status": "concluida",
+    "observacoes": null
+  },
+  {
+    "id": 3,
+    "cliente_id": 1,
+    "data_venda": "2024-01-17 09:15:00",
+    "valor_total": 598.0,
+    "forma_pagamento": "pix",
+    "status": "concluida",
+    "observacoes": "Pagamento instantâneo"
+  },
+  {
+    "id": 4,
+    "cliente_id": 3,
+    "data_venda": "2024-01-18 16:45:00",
+    "valor_total": 1200.0,
+    "forma_pagamento": "cartao_credito",
+    "status": "concluida",
+    "observacoes": null
+  },
+  {
+    "id": 5,
+    "cliente_id": 2,
+    "data_venda": "2024-01-19 11:30:00",
+    "valor_total": 450.0,
+    "forma_pagamento": "dinheiro",
+    "status": "concluida",
+    "observacoes": null
+  },
+  {
+    "id": 6,
+    "cliente_id": 4,
+    "data_venda": "2024-01-20 15:00:00",
+    "valor_total": 299.0,
+    "forma_pagamento": "pix",
+    "status": "concluida",
+    "observacoes": "Desconto promocional"
+  },
+  {
+    "id": 7,
+    "cliente_id": 5,
+    "data_venda": "2024-01-21 10:00:00",
+    "valor_total": 249.9,
+    "forma_pagamento": "cartao_credito",
+    "status": "concluida",
+    "observacoes": null
+  },
+  {
+    "id": 8,
+    "cliente_id": 1,
+    "data_venda": "2024-01-22 13:30:00",
+    "valor_total": 179.9,
+    "forma_pagamento": "debito",
+    "status": "concluida",
+    "observacoes": null
+  },
+  {
+    "id": 9,
+    "cliente_id": 3,
+    "data_venda": "2024-01-23 16:00:00",
+    "valor_total": 5999.0,
+    "forma_pagamento": "cartao_credito",
+    "status": "concluida",
+    "observacoes": "Produto de alto valor"
+  },
+  {
+    "id": 10,
+    "cliente_id": 2,
+    "data_venda": "2024-01-24 11:45:00",
+    "valor_total": 149.9,
+    "forma_pagamento": "pix",
+    "status": "concluida",
+    "observacoes": null
+  }
+]

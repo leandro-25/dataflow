@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "nome": "Empresa ABC Ltda",
+    "cnpj": "12.345.678/0001-90",
+    "segmento": "Tecnologia",
+    "cidade": "São Paulo",
+    "estado": "SP",
+    "data_cadastro": "2024-01-01",
+    "status": "ativo",
+    "limite_credito": 50000.0
+  },
+  {
+    "id": 2,
+    "nome": "Comércio XYZ S/A",
+    "cnpj": "98.765.432/0001-10",
+    "segmento": "Varejo",
+    "cidade": "Rio de Janeiro",
+    "estado": "RJ",
+    "data_cadastro": "2024-01-05",
+    "status": "ativo",
+    "limite_credito": 30000.0
+  },
+  {
+    "id": 3,
+    "nome": "Indústria 123 Ltda",
+    "cnpj": "45.678.901/0001-23",
+    "segmento": "Manufatura",
+    "cidade": "Belo Horizonte",
+    "estado": "MG",
+    "data_cadastro": "2024-01-10",
+    "status": "ativo",
+    "limite_credito": 75000.0
+  },
+  {
+    "id": 4,
+    "nome": "Serviços Tech ME",
+    "cnpj": "87.654.321/0001-45",
+    "segmento": "Consultoria",
+    "cidade": "Porto Alegre",
+    "estado": "RS",
+    "data_cadastro": "2024-01-15",
+    "status": "ativo",
+    "limite_credito": 25000.0
+  },
+  {
+    "id": 5,
+    "nome": "Distribuidora Central",
+    "cnpj": "54.321.987/0001-67",
+    "segmento": "Logística",
+    "cidade": "Curitiba",
+    "estado": "PR",
+    "data_cadastro": "2024-01-20",
+    "status": "pendente",
+    "limite_credito": 100000.0
+  },
+  {
+    "id": 6,
+    "nome": "Loja Virtual E-commerce",
+    "cnpj": "76.543.210/0001-89",
+    "segmento": "E-commerce",
+    "cidade": "Salvador",
+    "estado": "BA",
+    "data_cadastro": "2024-01-25",
+    "status": "ativo",
+    "limite_credito": 15000.0
+  },
+  {
+    "id": 7,
+    "nome": "Restaurante Sabores",
+    "cnpj": "23.456.789/0001-01",
+    "segmento": "Alimentação",
+    "cidade": "Recife",
+    "estado": "PE",
+    "data_cadastro": "2024-02-01",
+    "status": "ativo",
+    "limite_credito": 10000.0
+  },
+  {
+    "id": 8,
+    "nome": "Construção Civil Ltda",
+    "cnpj": "67.890.123/0001-34",
+    "segmento": "Construção",
+    "cidade": "Fortaleza",
+    "estado": "CE",
+    "data_cadastro": "2024-02-05",
+    "status": "ativo",
+    "limite_credito": 200000.0
+  }
+]
